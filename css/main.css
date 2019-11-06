@@ -2,3 +2,12 @@ html{
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
