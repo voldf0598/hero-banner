@@ -9,30 +9,44 @@ html {
 
 body {
   margin: 0;
-  position: relative;
 }
 
-.banner{
-
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .img-flex {
   display: block;
-  max-height: 500px;
   width: 100%;
 }
 
 h2 {
   font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  margin-top: .5rem;
+  line-height: 1.4;
 }
 
 .banner-content {
-  color: rgba(0, 0, 0, .5);
   position: absolute;
-  z-index: 2000;
+  left: 50%;
+  bottom: 1em;
   text-align: left;
+  max-width: 50em;
+  width: 100%;
+  transform: translateX(-50%);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 p {
   font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 0;
 }
