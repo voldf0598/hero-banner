@@ -6,8 +6,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
+  position: relative;
 }
 
 .banner{
@@ -17,7 +19,6 @@ body {
 .img-flex {
   display: block;
   max-height: 500px;
-  position: relative;
   width: 100%;
 }
 
