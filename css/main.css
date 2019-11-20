@@ -1,13 +1,37 @@
-html{
+html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  margin: 0;
+}
+
+.banner{
+
+}
 
 .img-flex {
   display: block;
+  max-height: 500px;
+  position: relative;
   width: 100%;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.banner-content {
+  color: rgba(0, 0, 0, .5);
+  position: absolute;
+  z-index: 2000;
+  text-align: left;
+}
+
+p {
+  font-size: 2rem;
 }
